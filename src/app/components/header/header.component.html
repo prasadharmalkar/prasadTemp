@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg  navbar-light "
+  style="background: #00C2FF;border-top-left-radius: 40px;border-bottom-right-radius: 40px;">
+  <a class="navbar-brand" style="color:rgb(243, 236, 236)">Zinfinity Technologies</a>
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse"
+    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse menuedit" id="navbarNavAltMarkup" [ngClass]="{'show':navbarOpen}">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link"> <li>Home</li></a>
+      <a class="nav-item nav-link" > <li>About Us</li></a>
+      <a class="nav-item nav-link" ><li>Services</li></a>
+      <a class="nav-item nav-link" ><li>Products</li></a>
+      <a class="nav-item nav-link" ><li>Contact</li></a>
+    
+    </div>
+  </div>
+</nav>
+
