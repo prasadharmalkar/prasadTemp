@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
    
 }
 
@@ -229,26 +230,41 @@ nav ul li a:hover {
 
 .home_mainImg
 {
-    height: 750px;
+    height: 890px;
     width: 100%;
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;
-    opacity: 0.8;
+    // border-bottom-right-radius: 70px;
+    // border-bottom-left-radius: 70px;
+    // opacity: 0.8;
 }
 
 .main_heading
 {
     font-family: 'Yeseva One', cursive;
     text-align: center;
+    font-size: 200%;
     margin: 40px;
+    color: #fff
     // margin-bottom: 80px;
 }
 .main_heading:hover
 {
-    color: rgb(243, 110, 16)
+    color: rgb(247, 161, 1)
 }
 
-
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 87%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
 
 
 @media only screen and (min-width: 650px)  {
